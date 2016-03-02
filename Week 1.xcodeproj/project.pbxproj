@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E9BC721C1C86760A00F4DD97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BC721B1C86760A00F4DD97 /* main.m */; };
+		E9BC72281C86827900F4DD97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BC72251C86827900F4DD97 /* main.m */; };
+		E9BC72291C86827900F4DD97 /* NXPen.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BC72271C86827900F4DD97 /* NXPen.m */; };
+		E9BC722C1C8683F700F4DD97 /* FilePrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BC722B1C8683F700F4DD97 /* FilePrinter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E9BC72181C86760A00F4DD97 /* iOS Basic Problem Solving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iOS Basic Problem Solving"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9BC721B1C86760A00F4DD97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9BC72181C86760A00F4DD97 /* Week 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Week 1"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9BC72251C86827900F4DD97 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Problem 1/main.m"; sourceTree = "<group>"; };
+		E9BC72261C86827900F4DD97 /* NXPen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPen.h; sourceTree = "<group>"; };
+		E9BC72271C86827900F4DD97 /* NXPen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPen.m; sourceTree = "<group>"; };
+		E9BC722A1C8683F700F4DD97 /* FilePrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePrinter.h; sourceTree = "<group>"; };
+		E9BC722B1C8683F700F4DD97 /* FilePrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilePrinter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +47,8 @@
 		E9BC720F1C86760A00F4DD97 = {
 			isa = PBXGroup;
 			children = (
-				E9BC721A1C86760A00F4DD97 /* iOS Basic Problem Solving */,
+				E9BC721A1C86760A00F4DD97 /* Problem 1 */,
+				E9BC722D1C8683FC00F4DD97 /* Problem 2 */,
 				E9BC72191C86760A00F4DD97 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +56,36 @@
 		E9BC72191C86760A00F4DD97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E9BC72181C86760A00F4DD97 /* iOS Basic Problem Solving */,
+				E9BC72181C86760A00F4DD97 /* Week 1 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E9BC721A1C86760A00F4DD97 /* iOS Basic Problem Solving */ = {
+		E9BC721A1C86760A00F4DD97 /* Problem 1 */ = {
 			isa = PBXGroup;
 			children = (
-				E9BC721B1C86760A00F4DD97 /* main.m */,
+				E9BC72261C86827900F4DD97 /* NXPen.h */,
+				E9BC72271C86827900F4DD97 /* NXPen.m */,
 			);
-			path = "iOS Basic Problem Solving";
+			path = "Problem 1";
+			sourceTree = "<group>";
+		};
+		E9BC722D1C8683FC00F4DD97 /* Problem 2 */ = {
+			isa = PBXGroup;
+			children = (
+				E9BC72251C86827900F4DD97 /* main.m */,
+				E9BC722A1C8683F700F4DD97 /* FilePrinter.h */,
+				E9BC722B1C8683F700F4DD97 /* FilePrinter.m */,
+			);
+			name = "Problem 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E9BC72171C86760A00F4DD97 /* iOS Basic Problem Solving */ = {
+		E9BC72171C86760A00F4DD97 /* Week 1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9BC721F1C86760A00F4DD97 /* Build configuration list for PBXNativeTarget "iOS Basic Problem Solving" */;
+			buildConfigurationList = E9BC721F1C86760A00F4DD97 /* Build configuration list for PBXNativeTarget "Week 1" */;
 			buildPhases = (
 				E9BC72141C86760A00F4DD97 /* Sources */,
 				E9BC72151C86760A00F4DD97 /* Frameworks */,
@@ -77,9 +95,9 @@
 			);
 			dependencies = (
 			);
-			name = "iOS Basic Problem Solving";
+			name = "Week 1";
 			productName = "iOS Basic Problem Solving";
-			productReference = E9BC72181C86760A00F4DD97 /* iOS Basic Problem Solving */;
+			productReference = E9BC72181C86760A00F4DD97 /* Week 1 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E9BC72131C86760A00F4DD97 /* Build configuration list for PBXProject "iOS Basic Problem Solving" */;
+			buildConfigurationList = E9BC72131C86760A00F4DD97 /* Build configuration list for PBXProject "Week 1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9BC72171C86760A00F4DD97 /* iOS Basic Problem Solving */,
+				E9BC72171C86760A00F4DD97 /* Week 1 */,
 			);
 		};
 /* End PBXProject section */
@@ -118,7 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9BC721C1C86760A00F4DD97 /* main.m in Sources */,
+				E9BC722C1C8683F700F4DD97 /* FilePrinter.m in Sources */,
+				E9BC72291C86827900F4DD97 /* NXPen.m in Sources */,
+				E9BC72281C86827900F4DD97 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,21 +227,21 @@
 		E9BC72201C86760A00F4DD97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Week 1";
 			};
 			name = Debug;
 		};
 		E9BC72211C86760A00F4DD97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Week 1";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E9BC72131C86760A00F4DD97 /* Build configuration list for PBXProject "iOS Basic Problem Solving" */ = {
+		E9BC72131C86760A00F4DD97 /* Build configuration list for PBXProject "Week 1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9BC721D1C86760A00F4DD97 /* Debug */,
@@ -230,13 +250,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9BC721F1C86760A00F4DD97 /* Build configuration list for PBXNativeTarget "iOS Basic Problem Solving" */ = {
+		E9BC721F1C86760A00F4DD97 /* Build configuration list for PBXNativeTarget "Week 1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9BC72201C86760A00F4DD97 /* Debug */,
 				E9BC72211C86760A00F4DD97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
