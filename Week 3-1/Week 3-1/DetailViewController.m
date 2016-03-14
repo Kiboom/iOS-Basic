@@ -24,6 +24,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonTouched:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
+    /* pushViewController에 대응하는 메서드. 모달로 떠있는 창을 내림. */
+//     [self dismissViewControllerAnimated:YES completion:nil];
+    /* presentViewController에 대응하는 메서드. 모달로 떠있는 창을 내림. */
+}
+
 /*
 #pragma mark - Navigation
 

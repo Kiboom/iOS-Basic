@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface DetailViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIButton *button;
+// IBOutlet을 끌어서 넣으려면, 스토리보드에서 해당 View Controller Scene의 custom class를 이 View Controller로 설정해야함~
 
 @end

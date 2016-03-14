@@ -13,18 +13,18 @@
 @synthesize persons;
 @synthesize person;
 
-- (id)initWithDataPath:(NSString*)path{
+
+- (id)init{
     self = [super init];
     if(self){
-        [self initializeData:path];
+        [self initializeData];
     }
     return self;
 }
 
-
-- (void)initializeData:(NSString*)path{
-    NSString * dataString = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
-    
+- (void)initializeData{
+    NSString *filepath = [[NSBundle mainBundle] pathForResource:@"persons" ofType:@"txt"];
+    NSString *dataString = [[NSString alloc] initWithContentsOfFile:filepath encoding:NSUTF8StringEncoding error:nil];
     NSArray * separatedData = [dataString componentsSeparatedByString:@"\n"];
     
     person = [[NSMutableDictionary alloc] init];
@@ -47,11 +47,6 @@
     NSLog(@"%@", name);
     return name;
 }
-/* valueForKey는 나중에 keyPath를 가지고 쓸 때 사용하는 메서드 */
-/* 결과는 같지만 Dictionary에서는 objectForKey 메서드를 사용하자! */
-
-/* NSMutableArray는 NSArray로부터 상속 받은 객체이므로, NSMutableArray는 NSArray로 넘길 수 있지만, */
-/* 반대 방향으로는 안된다! NSArray를 Mutable하게 만드려면, 새로 Mutable을 alloc initWithArray를 하거나, mutableCopy라는 메서드를 쓰자!  */
 
 - (NSNumber *)personNumberAtIndex:(int)index{
     NSNumber * number = [persons[index] objectForKey:@"학번"];
@@ -95,7 +90,7 @@
 
 
 
-- (NSNumber*) findPersonNumberByName:(NSString*)name{
+- (NSString*) findPersonNumberByName:(NSString*)name{
     for(NSMutableDictionary* student in persons){
         if([[student objectForKey:@"이름"] isEqualToString:name]){
             NSLog(@"%@", [student objectForKey:@"학번"]);
@@ -137,6 +132,16 @@
     NSArray *sortedArray = [persons sortedArrayUsingDescriptors:sortDescriptors];
     NSLog(@"%@",sortedArray);
     return sortedArray;
+}
+
+- (NSString *) getNamesWithSort {
+    NSArray * sortResult = [self sortedByNumber];
+    NSMutableString * nameString = [[NSMutableString alloc] init];
+    for(NSDictionary * data in sortResult){
+        [nameString appendString:[data objectForKey:@"이름"]];
+        [nameString appendString:@", "];
+    }
+    return [nameString substringToIndex:[nameString length]-2];
 }
 
 

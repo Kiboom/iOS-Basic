@@ -16,6 +16,9 @@
 		E905D6E21C965DB3008235A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E905D6E01C965DB3008235A9 /* LaunchScreen.storyboard */; };
 		E905D6ED1C965DB3008235A9 /* Week_3_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E905D6EC1C965DB3008235A9 /* Week_3_1Tests.m */; };
 		E905D6F81C965DB3008235A9 /* Week_3_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E905D6F71C965DB3008235A9 /* Week_3_1UITests.m */; };
+		E905D7071C9662E7008235A9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E905D7061C9662E7008235A9 /* DetailViewController.m */; };
+		E905D70A1C966820008235A9 /* NXPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E905D7091C966820008235A9 /* NXPersonModel.m */; };
+		E905D70C1C971189008235A9 /* persons.txt in Resources */ = {isa = PBXBuildFile; fileRef = E905D70B1C971189008235A9 /* persons.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,11 @@
 		E905D6F31C965DB3008235A9 /* Week 3-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 3-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E905D6F71C965DB3008235A9 /* Week_3_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week_3_1UITests.m; sourceTree = "<group>"; };
 		E905D6F91C965DB3008235A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E905D7051C9662E7008235A9 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E905D7061C9662E7008235A9 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E905D7081C966820008235A9 /* NXPersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPersonModel.h; sourceTree = "<group>"; };
+		E905D7091C966820008235A9 /* NXPersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPersonModel.m; sourceTree = "<group>"; };
+		E905D70B1C971189008235A9 /* persons.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = persons.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,12 +116,17 @@
 				E905D6D31C965DB2008235A9 /* AppDelegate.m */,
 				E905D6D51C965DB2008235A9 /* FirstViewController.h */,
 				E905D6D61C965DB2008235A9 /* FirstViewController.m */,
+				E905D7051C9662E7008235A9 /* DetailViewController.h */,
+				E905D7061C9662E7008235A9 /* DetailViewController.m */,
 				E905D6D81C965DB2008235A9 /* SecondViewController.h */,
 				E905D6D91C965DB2008235A9 /* SecondViewController.m */,
+				E905D7081C966820008235A9 /* NXPersonModel.h */,
+				E905D7091C966820008235A9 /* NXPersonModel.m */,
 				E905D6DB1C965DB2008235A9 /* Main.storyboard */,
 				E905D6DE1C965DB2008235A9 /* Assets.xcassets */,
 				E905D6E01C965DB3008235A9 /* LaunchScreen.storyboard */,
 				E905D6E31C965DB3008235A9 /* Info.plist */,
+				E905D70B1C971189008235A9 /* persons.txt */,
 				E905D6CF1C965DB2008235A9 /* Supporting Files */,
 			);
 			path = "Week 3-1";
@@ -251,6 +264,7 @@
 				E905D6E21C965DB3008235A9 /* LaunchScreen.storyboard in Resources */,
 				E905D6DF1C965DB2008235A9 /* Assets.xcassets in Resources */,
 				E905D6DD1C965DB2008235A9 /* Main.storyboard in Resources */,
+				E905D70C1C971189008235A9 /* persons.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E905D70A1C966820008235A9 /* NXPersonModel.m in Sources */,
+				E905D7071C9662E7008235A9 /* DetailViewController.m in Sources */,
 				E905D6DA1C965DB2008235A9 /* SecondViewController.m in Sources */,
 				E905D6D41C965DB2008235A9 /* AppDelegate.m in Sources */,
 				E905D6D71C965DB2008235A9 /* FirstViewController.m in Sources */,

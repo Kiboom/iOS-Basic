@@ -17,7 +17,6 @@
 /* person 객체 만들 때 isEqual 메서드도 구현하기! */
 
 
-- (id)initWithDataPath:(NSString*)path;
 - (NSString *)personNameAtIndex:(int)index;
 - (NSNumber *)personNumberAtIndex:(int)index;
 - (BOOL)isMaleAtIndex:(int)index;
@@ -25,11 +24,12 @@
 - (NSDictionary *)getPersonObjectAtIndex:(int)index;
 
 - (NSString*) findPersonNameByNumber:(NSNumber*)number;
-- (NSNumber*) findPersonNumberByName:(NSString*)name;
+- (NSString*) findPersonNumberByName:(NSString*)name;
 
 - (NSArray*) sortedByName;
 - (NSArray*) sortedByNumber;
 - (NSArray*) sortedByTeam;
+- (NSString*) getNamesWithSort;
 
 - (NSArray*) filterByTeam:(NSNumber*)team;
 - (NSArray*) filterByGender:(BOOL)isMale;

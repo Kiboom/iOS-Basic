@@ -12,23 +12,25 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         NXPersonModel * pm = [[NXPersonModel alloc] initWithDataPath:@"/Users/Thomas/persons.txt"];
+//
+//        [pm personNameAtIndex:1];
+//        [pm personNumberAtIndex:1];
+//        [pm isMaleAtIndex:1];
+//        [pm personTeamAtIndex:1];
+//        [pm getPersonObjectAtIndex:1];
+//        
+//        [pm findPersonNameByNumber:@141009];
+//        [pm findPersonNumberByName:@"김기범"];
+//        
+//        [pm sortedByName];
+//        [pm sortedByNumber];
+//        [pm sortedByTeam];
+        NSString * string = [pm getNamesWithSort];
+        NSLog(@"%@", string);
         
-        [pm personNameAtIndex:1];
-        [pm personNumberAtIndex:1];
-        [pm isMaleAtIndex:1];
-        [pm personTeamAtIndex:1];
-        [pm getPersonObjectAtIndex:1];
-        
-        [pm findPersonNameByNumber:@141009];
-        [pm findPersonNumberByName:@"김기범"];
-        
-        [pm sortedByName];
-        [pm sortedByNumber];
-        [pm sortedByTeam];
-        
-        [pm filterByTeam:@1];
-        [pm filterByGender:YES];
-        [pm filterDistinctByLastName];
+//        [pm filterByTeam:@1];
+//        [pm filterByGender:YES];
+//        [pm filterDistinctByLastName];
         
     }
     return 0;

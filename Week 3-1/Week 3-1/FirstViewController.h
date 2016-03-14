@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailViewController.h"
 
 @interface FirstViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UIButton *button;
 
 @end
 

@@ -30,6 +30,7 @@
 - (NSArray*) sortedByName;
 - (NSArray*) sortedByNumber;
 - (NSArray*) sortedByTeam;
+- (NSString *) getNamesWithSort;
 
 - (NSArray*) filterByTeam:(NSNumber*)team;
 - (NSArray*) filterByGender:(BOOL)isMale;

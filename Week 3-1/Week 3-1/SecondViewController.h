@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NXPersonModel.h"
 
 @interface SecondViewController : UIViewController
 
+@property NXPersonModel * pm;
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+@property (strong, nonatomic) IBOutlet UILabel *result;
 
 @end
 
