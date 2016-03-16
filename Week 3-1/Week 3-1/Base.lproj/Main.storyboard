@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -104,7 +105,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E7v-aw-0vM">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E7v-aw-0vM">
                                 <rect key="frame" x="277" y="285" width="46" height="30"/>
                                 <state key="normal" title="prev"/>
                                 <connections>
@@ -272,20 +273,20 @@
                                 <exclude reference="Eb3-U1-51U"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="6yq-f5-sJh"/>
-                                <exclude reference="6pd-nK-ww1"/>
-                                <exclude reference="aSS-X5-7VC"/>
                                 <exclude reference="h8O-cl-zLh"/>
                                 <exclude reference="k2u-zf-4Mu"/>
+                                <exclude reference="3f1-se-jJm"/>
+                                <exclude reference="78S-DK-uLk"/>
+                                <exclude reference="veP-e5-KSn"/>
+                                <exclude reference="dhZ-W6-g7x"/>
+                                <exclude reference="u9Y-pC-gk1"/>
+                                <exclude reference="6pd-nK-ww1"/>
+                                <exclude reference="aSS-X5-7VC"/>
                                 <exclude reference="WKt-UZ-EmZ"/>
                                 <exclude reference="Zk1-O2-8SM"/>
                                 <exclude reference="aWG-pe-Az2"/>
                                 <exclude reference="c5R-4U-HwH"/>
-                                <exclude reference="dhZ-W6-g7x"/>
-                                <exclude reference="u9Y-pC-gk1"/>
-                                <exclude reference="3f1-se-jJm"/>
-                                <exclude reference="78S-DK-uLk"/>
-                                <exclude reference="veP-e5-KSn"/>
+                                <exclude reference="6yq-f5-sJh"/>
                                 <exclude reference="yuJ-Lp-AA1"/>
                             </mask>
                         </variation>
@@ -299,20 +300,20 @@
                                 <include reference="Eb3-U1-51U"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="6yq-f5-sJh"/>
-                                <include reference="6pd-nK-ww1"/>
-                                <include reference="aSS-X5-7VC"/>
                                 <include reference="h8O-cl-zLh"/>
                                 <include reference="k2u-zf-4Mu"/>
+                                <include reference="3f1-se-jJm"/>
+                                <include reference="78S-DK-uLk"/>
+                                <include reference="veP-e5-KSn"/>
+                                <include reference="dhZ-W6-g7x"/>
+                                <include reference="u9Y-pC-gk1"/>
+                                <include reference="6pd-nK-ww1"/>
+                                <include reference="aSS-X5-7VC"/>
                                 <include reference="WKt-UZ-EmZ"/>
                                 <include reference="Zk1-O2-8SM"/>
                                 <include reference="aWG-pe-Az2"/>
                                 <include reference="c5R-4U-HwH"/>
-                                <include reference="dhZ-W6-g7x"/>
-                                <include reference="u9Y-pC-gk1"/>
-                                <include reference="3f1-se-jJm"/>
-                                <include reference="78S-DK-uLk"/>
-                                <include reference="veP-e5-KSn"/>
+                                <include reference="6yq-f5-sJh"/>
                                 <include reference="yuJ-Lp-AA1"/>
                             </mask>
                         </variation>
