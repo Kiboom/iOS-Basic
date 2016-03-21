@@ -27,6 +27,14 @@
         int random = [[[NSNumber alloc] initWithInt:(arc4random()%4)] intValue];
         detailVC.random = random;
     }
- }
+}
+
+/* 세그웨이 대신 IBAction으로 구현할 때는 요렇게!
+- (IBAction)randomButtonTouched:(id)sender {
+    DetailViewController *detailVC = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailViewController"];
+    // 여기에 다음 화면에 데이터 전달하는 코드 구현하기
+    [self.navigationController pushViewController:detailVC animated:YES];
+}
+*/
 
 @end
