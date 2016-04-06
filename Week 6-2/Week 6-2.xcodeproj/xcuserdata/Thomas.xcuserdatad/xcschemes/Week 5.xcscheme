@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E9516B631CAB5FCF00C39C92"
                BuildableName = "Week 7.app"
-               BlueprintName = "Week 7"
-               ReferencedContainer = "container:Week 7.xcodeproj">
+               BlueprintName = "Week 6-2"
+               ReferencedContainer = "container:Week 6-2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E9516B7C1CAB5FCF00C39C92"
-               BuildableName = "Week 7.xctest"
-               BlueprintName = "Week 7Tests"
-               ReferencedContainer = "container:Week 7.xcodeproj">
+               BuildableName = "Week 6-2.xctest"
+               BlueprintName = "Week 6-2Tests"
+               ReferencedContainer = "container:Week 6-2.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E9516B871CAB5FCF00C39C92"
-               BuildableName = "Week 7.xctest"
-               BlueprintName = "Week 7UITests"
-               ReferencedContainer = "container:Week 7.xcodeproj">
+               BuildableName = "Week 6-2.xctest"
+               BlueprintName = "Week 6-2UITests"
+               ReferencedContainer = "container:Week 6-2.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -54,8 +54,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E9516B631CAB5FCF00C39C92"
             BuildableName = "Week 7.app"
-            BlueprintName = "Week 7"
-            ReferencedContainer = "container:Week 7.xcodeproj">
+            BlueprintName = "Week 6-2"
+            ReferencedContainer = "container:Week 6-2.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -77,8 +77,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E9516B631CAB5FCF00C39C92"
             BuildableName = "Week 7.app"
-            BlueprintName = "Week 7"
-            ReferencedContainer = "container:Week 7.xcodeproj">
+            BlueprintName = "Week 6-2"
+            ReferencedContainer = "container:Week 6-2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,8 +96,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E9516B631CAB5FCF00C39C92"
             BuildableName = "Week 7.app"
-            BlueprintName = "Week 7"
-            ReferencedContainer = "container:Week 7.xcodeproj">
+            BlueprintName = "Week 6-2"
+            ReferencedContainer = "container:Week 6-2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

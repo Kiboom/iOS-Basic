@@ -88,24 +88,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E9516B641CAB5FCF00C39C92 /* Week 7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week 7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9516B681CAB5FCF00C39C92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E9516B6A1CAB5FCF00C39C92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E9516B6B1CAB5FCF00C39C92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E9516B6D1CAB5FCF00C39C92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E9516B6E1CAB5FCF00C39C92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9516B641CAB5FCF00C39C92 /* Week 6-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week 6-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9516B681CAB5FCF00C39C92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Week 6-2/main.m"; sourceTree = "<group>"; };
+		E9516B6A1CAB5FCF00C39C92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Week 6-2/AppDelegate.h"; sourceTree = "<group>"; };
+		E9516B6B1CAB5FCF00C39C92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Week 6-2/AppDelegate.m"; sourceTree = "<group>"; };
+		E9516B6D1CAB5FCF00C39C92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "Week 6-2/ViewController.h"; sourceTree = "<group>"; };
+		E9516B6E1CAB5FCF00C39C92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "Week 6-2/ViewController.m"; sourceTree = "<group>"; };
 		E9516B711CAB5FCF00C39C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E9516B731CAB5FCF00C39C92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9516B731CAB5FCF00C39C92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Week 6-2/Assets.xcassets"; sourceTree = "<group>"; };
 		E9516B761CAB5FCF00C39C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E9516B781CAB5FCF00C39C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9516B7D1CAB5FCF00C39C92 /* Week 7.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 7.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9516B781CAB5FCF00C39C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = "Week 6-2/Info.plist"; sourceTree = "<group>"; };
+		E9516B7D1CAB5FCF00C39C92 /* Week 6-2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 6-2.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9516B811CAB5FCF00C39C92 /* Week_5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week_5Tests.m; sourceTree = "<group>"; };
 		E9516B831CAB5FCF00C39C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9516B881CAB5FCF00C39C92 /* Week 7.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 7.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9516B881CAB5FCF00C39C92 /* Week 6-2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 6-2.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9516B8C1CAB5FCF00C39C92 /* Week_5UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week_5UITests.m; sourceTree = "<group>"; };
 		E9516B8E1CAB5FCF00C39C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9516B9E1CAB60E400C39C92 /* SolitaireDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolitaireDeck.h; sourceTree = "<group>"; };
-		E9516B9F1CAB60E400C39C92 /* SolitaireDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolitaireDeck.m; sourceTree = "<group>"; };
+		E9516B9E1CAB60E400C39C92 /* SolitaireDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SolitaireDeck.h; path = "Week 6-2/SolitaireDeck.h"; sourceTree = "<group>"; };
+		E9516B9F1CAB60E400C39C92 /* SolitaireDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SolitaireDeck.m; path = "Week 6-2/SolitaireDeck.m"; sourceTree = "<group>"; };
 		E9662D511CB4B2EB00707F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/1.png; sourceTree = "<group>"; };
 		E9662D531CB4B2EB00707F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/2.png; sourceTree = "<group>"; };
 		E9662D551CB4B2EB00707F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/3.png; sourceTree = "<group>"; };
@@ -242,7 +242,7 @@
 		E9516B5B1CAB5FCF00C39C92 = {
 			isa = PBXGroup;
 			children = (
-				E9516B661CAB5FCF00C39C92 /* Week 7 */,
+				E9516B661CAB5FCF00C39C92 /* Week 6-2 */,
 				E9516B801CAB5FCF00C39C92 /* Week 5Tests */,
 				E9516B8B1CAB5FCF00C39C92 /* Week 5UITests */,
 				E9516B651CAB5FCF00C39C92 /* Products */,
@@ -252,14 +252,14 @@
 		E9516B651CAB5FCF00C39C92 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E9516B641CAB5FCF00C39C92 /* Week 7.app */,
-				E9516B7D1CAB5FCF00C39C92 /* Week 7.xctest */,
-				E9516B881CAB5FCF00C39C92 /* Week 7.xctest */,
+				E9516B641CAB5FCF00C39C92 /* Week 6-2.app */,
+				E9516B7D1CAB5FCF00C39C92 /* Week 6-2.xctest */,
+				E9516B881CAB5FCF00C39C92 /* Week 6-2.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E9516B661CAB5FCF00C39C92 /* Week 7 */ = {
+		E9516B661CAB5FCF00C39C92 /* Week 6-2 */ = {
 			isa = PBXGroup;
 			children = (
 				E9516B6A1CAB5FCF00C39C92 /* AppDelegate.h */,
@@ -275,7 +275,7 @@
 				E9662E221CB4B33300707F57 /* card_decks */,
 				E9516B671CAB5FCF00C39C92 /* Supporting Files */,
 			);
-			path = "Week 7";
+			name = "Week 6-2";
 			sourceTree = "<group>";
 		};
 		E9516B671CAB5FCF00C39C92 /* Supporting Files */ = {
@@ -361,15 +361,15 @@
 				E9662DB61CB4B2EB00707F57 /* 52.png */,
 			);
 			name = card_decks;
-			path = Base.lproj;
+			path = "Week 6-2/Base.lproj";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E9516B631CAB5FCF00C39C92 /* Week 7 */ = {
+		E9516B631CAB5FCF00C39C92 /* Week 6-2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9516B911CAB5FCF00C39C92 /* Build configuration list for PBXNativeTarget "Week 7" */;
+			buildConfigurationList = E9516B911CAB5FCF00C39C92 /* Build configuration list for PBXNativeTarget "Week 6-2" */;
 			buildPhases = (
 				E9516B601CAB5FCF00C39C92 /* Sources */,
 				E9516B611CAB5FCF00C39C92 /* Frameworks */,
@@ -379,14 +379,14 @@
 			);
 			dependencies = (
 			);
-			name = "Week 7";
+			name = "Week 6-2";
 			productName = "Week 5";
-			productReference = E9516B641CAB5FCF00C39C92 /* Week 7.app */;
+			productReference = E9516B641CAB5FCF00C39C92 /* Week 6-2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E9516B7C1CAB5FCF00C39C92 /* Week 7Tests */ = {
+		E9516B7C1CAB5FCF00C39C92 /* Week 6-2Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9516B941CAB5FCF00C39C92 /* Build configuration list for PBXNativeTarget "Week 7Tests" */;
+			buildConfigurationList = E9516B941CAB5FCF00C39C92 /* Build configuration list for PBXNativeTarget "Week 6-2Tests" */;
 			buildPhases = (
 				E9516B791CAB5FCF00C39C92 /* Sources */,
 				E9516B7A1CAB5FCF00C39C92 /* Frameworks */,
@@ -397,14 +397,14 @@
 			dependencies = (
 				E9516B7F1CAB5FCF00C39C92 /* PBXTargetDependency */,
 			);
-			name = "Week 7Tests";
+			name = "Week 6-2Tests";
 			productName = "Week 5Tests";
-			productReference = E9516B7D1CAB5FCF00C39C92 /* Week 7.xctest */;
+			productReference = E9516B7D1CAB5FCF00C39C92 /* Week 6-2.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E9516B871CAB5FCF00C39C92 /* Week 7UITests */ = {
+		E9516B871CAB5FCF00C39C92 /* Week 6-2UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9516B971CAB5FCF00C39C92 /* Build configuration list for PBXNativeTarget "Week 7UITests" */;
+			buildConfigurationList = E9516B971CAB5FCF00C39C92 /* Build configuration list for PBXNativeTarget "Week 6-2UITests" */;
 			buildPhases = (
 				E9516B841CAB5FCF00C39C92 /* Sources */,
 				E9516B851CAB5FCF00C39C92 /* Frameworks */,
@@ -415,9 +415,9 @@
 			dependencies = (
 				E9516B8A1CAB5FCF00C39C92 /* PBXTargetDependency */,
 			);
-			name = "Week 7UITests";
+			name = "Week 6-2UITests";
 			productName = "Week 5UITests";
-			productReference = E9516B881CAB5FCF00C39C92 /* Week 7.xctest */;
+			productReference = E9516B881CAB5FCF00C39C92 /* Week 6-2.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -442,7 +442,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E9516B5F1CAB5FCF00C39C92 /* Build configuration list for PBXProject "Week 7" */;
+			buildConfigurationList = E9516B5F1CAB5FCF00C39C92 /* Build configuration list for PBXProject "Week 6-2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -456,9 +456,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9516B631CAB5FCF00C39C92 /* Week 7 */,
-				E9516B7C1CAB5FCF00C39C92 /* Week 7Tests */,
-				E9516B871CAB5FCF00C39C92 /* Week 7UITests */,
+				E9516B631CAB5FCF00C39C92 /* Week 6-2 */,
+				E9516B7C1CAB5FCF00C39C92 /* Week 6-2Tests */,
+				E9516B871CAB5FCF00C39C92 /* Week 6-2UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -575,12 +575,12 @@
 /* Begin PBXTargetDependency section */
 		E9516B7F1CAB5FCF00C39C92 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E9516B631CAB5FCF00C39C92 /* Week 7 */;
+			target = E9516B631CAB5FCF00C39C92 /* Week 6-2 */;
 			targetProxy = E9516B7E1CAB5FCF00C39C92 /* PBXContainerItemProxy */;
 		};
 		E9516B8A1CAB5FCF00C39C92 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E9516B631CAB5FCF00C39C92 /* Week 7 */;
+			target = E9516B631CAB5FCF00C39C92 /* Week 6-2 */;
 			targetProxy = E9516B891CAB5FCF00C39C92 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -593,6 +593,7 @@
 				E9662DEC1CB4B2FA00707F57 /* ko */,
 			);
 			name = Main.storyboard;
+			path = "Week 6-2";
 			sourceTree = "<group>";
 		};
 		E9516B751CAB5FCF00C39C92 /* LaunchScreen.storyboard */ = {
@@ -602,6 +603,7 @@
 				E9662DED1CB4B2FA00707F57 /* ko */,
 			);
 			name = LaunchScreen.storyboard;
+			path = "Week 6-2";
 			sourceTree = "<group>";
 		};
 		E9662D501CB4B2EB00707F57 /* 1.png */ = {
@@ -1213,10 +1215,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Week 7/Info.plist";
+				INFOPLIST_FILE = "Week 6-2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NHN-NEXT.Week-5";
-				PRODUCT_NAME = "Week 7";
+				PRODUCT_NAME = "Week 6-2";
 			};
 			name = Debug;
 		};
@@ -1224,10 +1226,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Week 7/Info.plist";
+				INFOPLIST_FILE = "Week 6-2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NHN-NEXT.Week-5";
-				PRODUCT_NAME = "Week 7";
+				PRODUCT_NAME = "Week 6-2";
 			};
 			name = Release;
 		};
@@ -1238,8 +1240,8 @@
 				INFOPLIST_FILE = "Week 5Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NHN-NEXT.Week-5Tests";
-				PRODUCT_NAME = "Week 7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week 7.app/Week 7";
+				PRODUCT_NAME = "Week 6-2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week 6-2.app/Week 6-2";
 			};
 			name = Debug;
 		};
@@ -1250,8 +1252,8 @@
 				INFOPLIST_FILE = "Week 5Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NHN-NEXT.Week-5Tests";
-				PRODUCT_NAME = "Week 7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week 7.app/Week 7";
+				PRODUCT_NAME = "Week 6-2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week 6-2.app/Week 6-2";
 			};
 			name = Release;
 		};
@@ -1261,7 +1263,7 @@
 				INFOPLIST_FILE = "Week 5UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NHN-NEXT.Week-5UITests";
-				PRODUCT_NAME = "Week 7";
+				PRODUCT_NAME = "Week 6-2";
 				TEST_TARGET_NAME = "Week 5";
 				USES_XCTRUNNER = YES;
 			};
@@ -1273,7 +1275,7 @@
 				INFOPLIST_FILE = "Week 5UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NHN-NEXT.Week-5UITests";
-				PRODUCT_NAME = "Week 7";
+				PRODUCT_NAME = "Week 6-2";
 				TEST_TARGET_NAME = "Week 5";
 				USES_XCTRUNNER = YES;
 			};
@@ -1282,7 +1284,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E9516B5F1CAB5FCF00C39C92 /* Build configuration list for PBXProject "Week 7" */ = {
+		E9516B5F1CAB5FCF00C39C92 /* Build configuration list for PBXProject "Week 6-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9516B8F1CAB5FCF00C39C92 /* Debug */,
@@ -1291,7 +1293,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9516B911CAB5FCF00C39C92 /* Build configuration list for PBXNativeTarget "Week 7" */ = {
+		E9516B911CAB5FCF00C39C92 /* Build configuration list for PBXNativeTarget "Week 6-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9516B921CAB5FCF00C39C92 /* Debug */,
@@ -1300,7 +1302,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9516B941CAB5FCF00C39C92 /* Build configuration list for PBXNativeTarget "Week 7Tests" */ = {
+		E9516B941CAB5FCF00C39C92 /* Build configuration list for PBXNativeTarget "Week 6-2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9516B951CAB5FCF00C39C92 /* Debug */,
@@ -1309,7 +1311,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9516B971CAB5FCF00C39C92 /* Build configuration list for PBXNativeTarget "Week 7UITests" */ = {
+		E9516B971CAB5FCF00C39C92 /* Build configuration list for PBXNativeTarget "Week 6-2UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9516B981CAB5FCF00C39C92 /* Debug */,
