@@ -18,7 +18,7 @@
     [super viewDidLoad];
 }
 
- - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
      //세그웨이가 넘어가기 전에 불리는 애.
     if([segue.identifier isEqualToString:@"detailSegue"]){
         // 해당 세그웨이에게 identifier를 부여해서 isEqualToString의 인자값으로 넘기기.
