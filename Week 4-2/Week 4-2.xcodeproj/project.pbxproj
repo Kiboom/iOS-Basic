@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E95E23A21CB50CEA00D864D7 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = E95E239C1CB50CEA00D864D7 /* black.png */; };
+		E95E23A31CB50CEA00D864D7 /* oak.png in Resources */ = {isa = PBXBuildFile; fileRef = E95E239E1CB50CEA00D864D7 /* oak.png */; };
+		E95E23A41CB50CEA00D864D7 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = E95E23A01CB50CEA00D864D7 /* white.png */; };
 		E99A99D11CA224F6008E9A2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E99A99D01CA224F6008E9A2B /* main.m */; };
 		E99A99D41CA224F6008E9A2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E99A99D31CA224F6008E9A2B /* AppDelegate.m */; };
 		E99A99D71CA224F6008E9A2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E99A99D61CA224F6008E9A2B /* ViewController.m */; };
@@ -15,9 +18,6 @@
 		E99A99DF1CA224F6008E9A2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99A99DD1CA224F6008E9A2B /* LaunchScreen.storyboard */; };
 		E99A99EA1CA224F7008E9A2B /* Week_4_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E99A99E91CA224F7008E9A2B /* Week_4_2Tests.m */; };
 		E99A99F51CA224F7008E9A2B /* Week_4_2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E99A99F41CA224F7008E9A2B /* Week_4_2UITests.m */; };
-		E99A9A051CA2254D008E9A2B /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = E99A9A021CA2254D008E9A2B /* black.png */; };
-		E99A9A061CA2254D008E9A2B /* oak.png in Resources */ = {isa = PBXBuildFile; fileRef = E99A9A031CA2254D008E9A2B /* oak.png */; };
-		E99A9A071CA2254D008E9A2B /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = E99A9A041CA2254D008E9A2B /* white.png */; };
 		E99A9A0A1CA2262D008E9A2B /* GoView.m in Sources */ = {isa = PBXBuildFile; fileRef = E99A9A091CA2262D008E9A2B /* GoView.m */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E95E239D1CB50CEA00D864D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/black.png; sourceTree = "<group>"; };
+		E95E239F1CB50CEA00D864D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/oak.png; sourceTree = "<group>"; };
+		E95E23A11CB50CEA00D864D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/white.png; sourceTree = "<group>"; };
+		E95E23A51CB50CFE00D864D7 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		E95E23A61CB50CFE00D864D7 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E95E23A71CB50CFE00D864D7 /* de */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = de; path = de.lproj/black.png; sourceTree = "<group>"; };
+		E95E23A81CB50CFF00D864D7 /* de */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = de; path = de.lproj/oak.png; sourceTree = "<group>"; };
+		E95E23A91CB50CFF00D864D7 /* de */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = de; path = de.lproj/white.png; sourceTree = "<group>"; };
 		E99A99CC1CA224F6008E9A2B /* Week 4-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week 4-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99A99D01CA224F6008E9A2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E99A99D21CA224F6008E9A2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,9 +63,6 @@
 		E99A99F01CA224F7008E9A2B /* Week 4-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 4-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99A99F41CA224F7008E9A2B /* Week_4_2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week_4_2UITests.m; sourceTree = "<group>"; };
 		E99A99F61CA224F7008E9A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E99A9A021CA2254D008E9A2B /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
-		E99A9A031CA2254D008E9A2B /* oak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oak.png; sourceTree = "<group>"; };
-		E99A9A041CA2254D008E9A2B /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
 		E99A9A081CA2262D008E9A2B /* GoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoView.h; sourceTree = "<group>"; };
 		E99A9A091CA2262D008E9A2B /* GoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,12 +122,12 @@
 				E99A9A081CA2262D008E9A2B /* GoView.h */,
 				E99A9A091CA2262D008E9A2B /* GoView.m */,
 				E99A99D81CA224F6008E9A2B /* Main.storyboard */,
+				E95E239C1CB50CEA00D864D7 /* black.png */,
+				E95E239E1CB50CEA00D864D7 /* oak.png */,
+				E95E23A01CB50CEA00D864D7 /* white.png */,
 				E99A99DB1CA224F6008E9A2B /* Assets.xcassets */,
 				E99A99DD1CA224F6008E9A2B /* LaunchScreen.storyboard */,
 				E99A99E01CA224F6008E9A2B /* Info.plist */,
-				E99A9A021CA2254D008E9A2B /* black.png */,
-				E99A9A041CA2254D008E9A2B /* white.png */,
-				E99A9A031CA2254D008E9A2B /* oak.png */,
 				E99A99CF1CA224F6008E9A2B /* Supporting Files */,
 			);
 			path = "Week 4-2";
@@ -239,6 +244,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = E99A99C31CA224F6008E9A2B;
 			productRefGroup = E99A99CD1CA224F6008E9A2B /* Products */;
@@ -258,11 +264,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E99A99DF1CA224F6008E9A2B /* LaunchScreen.storyboard in Resources */,
-				E99A9A061CA2254D008E9A2B /* oak.png in Resources */,
-				E99A9A051CA2254D008E9A2B /* black.png in Resources */,
+				E95E23A31CB50CEA00D864D7 /* oak.png in Resources */,
+				E95E23A21CB50CEA00D864D7 /* black.png in Resources */,
 				E99A99DC1CA224F6008E9A2B /* Assets.xcassets in Resources */,
 				E99A99DA1CA224F6008E9A2B /* Main.storyboard in Resources */,
-				E99A9A071CA2254D008E9A2B /* white.png in Resources */,
+				E95E23A41CB50CEA00D864D7 /* white.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,10 +332,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		E95E239C1CB50CEA00D864D7 /* black.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95E239D1CB50CEA00D864D7 /* Base */,
+				E95E23A71CB50CFE00D864D7 /* de */,
+			);
+			name = black.png;
+			sourceTree = "<group>";
+		};
+		E95E239E1CB50CEA00D864D7 /* oak.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95E239F1CB50CEA00D864D7 /* Base */,
+				E95E23A81CB50CFF00D864D7 /* de */,
+			);
+			name = oak.png;
+			sourceTree = "<group>";
+		};
+		E95E23A01CB50CEA00D864D7 /* white.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95E23A11CB50CEA00D864D7 /* Base */,
+				E95E23A91CB50CFF00D864D7 /* de */,
+			);
+			name = white.png;
+			sourceTree = "<group>";
+		};
 		E99A99D81CA224F6008E9A2B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E99A99D91CA224F6008E9A2B /* Base */,
+				E95E23A51CB50CFE00D864D7 /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -338,6 +372,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E99A99DE1CA224F6008E9A2B /* Base */,
+				E95E23A61CB50CFE00D864D7 /* de */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -516,6 +551,7 @@
 				E99A99FB1CA224F7008E9A2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E99A99FC1CA224F7008E9A2B /* Build configuration list for PBXNativeTarget "Week 4-2Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +560,7 @@
 				E99A99FE1CA224F7008E9A2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E99A99FF1CA224F7008E9A2B /* Build configuration list for PBXNativeTarget "Week 4-2UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +569,7 @@
 				E99A9A011CA224F7008E9A2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

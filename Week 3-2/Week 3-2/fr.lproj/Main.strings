@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "제목 :"; ObjectID = "Tlk-zw-o1f"; */
+"Tlk-zw-o1f.text" = "제목 :";
+
+/* Class = "UITabBarItem"; title = "First"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "First";
+
+/* Class = "UITabBarItem"; title = "Second"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Second";
+
+/* Class = "UIButton"; normalTitle = "Choose Image From Camera Roll"; ObjectID = "lpw-Ss-W4X"; */
+"lpw-Ss-W4X.normalTitle" = "Choose Image From Camera Roll";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "sDQ-tw-c8v"; */
+"sDQ-tw-c8v.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xl9-rm-Umb"; */
+"xl9-rm-Umb.text" = "Label";

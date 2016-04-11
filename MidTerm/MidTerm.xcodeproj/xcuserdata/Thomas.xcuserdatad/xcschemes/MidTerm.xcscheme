@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E9516B631CAB5FCF00C39C92"
-               BuildableName = "Week 6-2.app"
-               BlueprintName = "Week 6-2"
-               ReferencedContainer = "container:Week 6-2.xcodeproj">
+               BlueprintIdentifier = "E93524B11CBB3489005AC613"
+               BuildableName = "MidTerm.app"
+               BlueprintName = "MidTerm"
+               ReferencedContainer = "container:MidTerm.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E9516B7C1CAB5FCF00C39C92"
-               BuildableName = "Week 6-2.xctest"
-               BlueprintName = "Week 6-2Tests"
-               ReferencedContainer = "container:Week 6-2.xcodeproj">
+               BlueprintIdentifier = "E93524CD1CBB3489005AC613"
+               BuildableName = "MidTermTests.xctest"
+               BlueprintName = "MidTermTests"
+               ReferencedContainer = "container:MidTerm.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E9516B871CAB5FCF00C39C92"
-               BuildableName = "Week 6-2.xctest"
-               BlueprintName = "Week 6-2UITests"
-               ReferencedContainer = "container:Week 6-2.xcodeproj">
+               BlueprintIdentifier = "E93524D81CBB3489005AC613"
+               BuildableName = "MidTermUITests.xctest"
+               BlueprintName = "MidTermUITests"
+               ReferencedContainer = "container:MidTerm.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E9516B631CAB5FCF00C39C92"
-            BuildableName = "Week 6-2.app"
-            BlueprintName = "Week 6-2"
-            ReferencedContainer = "container:Week 6-2.xcodeproj">
+            BlueprintIdentifier = "E93524B11CBB3489005AC613"
+            BuildableName = "MidTerm.app"
+            BlueprintName = "MidTerm"
+            ReferencedContainer = "container:MidTerm.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E9516B631CAB5FCF00C39C92"
-            BuildableName = "Week 6-2.app"
-            BlueprintName = "Week 6-2"
-            ReferencedContainer = "container:Week 6-2.xcodeproj">
+            BlueprintIdentifier = "E93524B11CBB3489005AC613"
+            BuildableName = "MidTerm.app"
+            BlueprintName = "MidTerm"
+            ReferencedContainer = "container:MidTerm.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E9516B631CAB5FCF00C39C92"
-            BuildableName = "Week 6-2.app"
-            BlueprintName = "Week 6-2"
-            ReferencedContainer = "container:Week 6-2.xcodeproj">
+            BlueprintIdentifier = "E93524B11CBB3489005AC613"
+            BuildableName = "MidTerm.app"
+            BlueprintName = "MidTerm"
+            ReferencedContainer = "container:MidTerm.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
