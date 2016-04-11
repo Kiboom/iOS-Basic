@@ -12,6 +12,7 @@
 @interface KBAlbumViewController ()
 
 @property NSMutableArray *objects;
+@property NSArray *yearList;
 @property BOOL willHideTableHeader;
 @end
 
@@ -26,37 +27,54 @@
     self.navigationItem.rightBarButtonItem = addButton;
     self.detailViewController = (KBDetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
     
-    self.notiCenter = [NSNotificationCenter defaultCenter];
-    [self.notiCenter addObserver:self
-                        selector:@selector(reloadTableView)
-                            name:@"modelInitialized"
-                          object:nil];
+    [self registerNotification];
     self.model = [[KBDataModel alloc] init];
     [self.model initializeData];
-    self.tableView.rowHeight = 80;
-    self.willHideTableHeader = YES;
+    self.yearList = [self.model getYearList];
+    
+    [self initiateTableView];
 }
+
 
 - (void)viewWillAppear:(BOOL)animated {
     self.clearsSelectionOnViewWillAppear = self.splitViewController.isCollapsed;
     [super viewWillAppear:animated];
 }
 
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+- (void)initiateTableView {
+    self.tableView.rowHeight = 80;
+    self.willHideTableHeader = YES;
+}
+
+
+- (void)registerNotification {
+    self.notiCenter = [NSNotificationCenter defaultCenter];
+    [self.notiCenter addObserver:self
+                        selector:@selector(reloadTableView)
+                            name:@"modelInitialized"
+                          object:nil];
+    [self.notiCenter addObserver:self selector:@selector(reloadTableView) name:@"sorted" object:nil];
+}
+
 
 - (void)reloadTableView {
     self.objects = [self.model.datas mutableCopy];
     [self.tableView reloadData];
 }
 
+
 - (void)sortTable:(id)sender {
     self.willHideTableHeader = NO;
-    [self.notiCenter addObserver:self selector:@selector(reloadTableView) name:@"sorted" object:nil];
     [self.model sort];
 }
+
 
 - (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event {
     if(motion == UIEventSubtypeMotionShake) {
@@ -82,30 +100,21 @@
 #pragma mark - Table View
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    NSArray *years = [self.model getYearArray];
-    return [years count];
+    return [self.yearList count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    NSArray *years = [self.model getYearArray];
-    return [self.model getNumberElementInYear:years[section]];
+    return [self.model getNumberElementInYear:self.yearList[section]];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     KBTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    
-    NSArray *years = [self.model getYearArray];
     int offset = 0;
     for(int i=0 ; i<indexPath.section ; i++){
-        offset+=[self.model getNumberElementInYear:years[i]];
+        offset += [self.model getNumberElementInYear:self.yearList[i]];
     }
     NSDictionary *object = self.objects[indexPath.row + offset];
-    
-    cell.titleLabel.text = [object objectForKey:@"title"];
-    cell.detailLabel.text = [object objectForKey:@"date"];
-    cell.background.image = [UIImage imageNamed:[object objectForKey:@"image"]];
-    cell.background.contentMode = UIViewContentModeCenter;
-    return cell;
+    return [self setCellContents:cell :object];
 }
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -126,8 +135,16 @@
     if(self.willHideTableHeader == YES) {
         return nil;
     }
-    NSArray *years = [self.model getYearArray];
-    return years[section];
+    return self.yearList[section];
+}
+
+
+- (KBTableViewCell *)setCellContents:(KBTableViewCell *)cell :(NSDictionary *)object {
+    cell.titleLabel.text = [object objectForKey:@"title"];
+    cell.detailLabel.text = [object objectForKey:@"date"];
+    cell.background.image = [UIImage imageNamed:[object objectForKey:@"image"]];
+    cell.background.contentMode = UIViewContentModeCenter;
+    return cell;
 }
 
 @end

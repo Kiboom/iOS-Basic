@@ -38,7 +38,7 @@
     [self.notiCenter postNotificationName:@"sorted" object:nil];
 }
 
-- (NSArray *)getYearArray {
+- (NSArray *)getYearList {
     self.years = [[NSMutableArray alloc] init];
     for(NSMutableDictionary *data in self.datas){
         [self.years addObject:[[data objectForKey:@"date"] substringToIndex:4]];

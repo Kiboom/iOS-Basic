@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface KBDataModel : NSObject
+
 @property NSData *jsonData;
 @property NSArray *datas;
 @property NSMutableArray *years;
@@ -16,7 +17,7 @@
 
 - (void)initializeData;
 - (void)sort;
-- (NSArray *)getYearArray;
+- (NSArray *)getYearList;
 - (int)getNumberElementInYear:(NSString *)year;
 
 @end
