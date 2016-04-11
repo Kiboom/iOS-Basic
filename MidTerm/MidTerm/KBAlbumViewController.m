@@ -89,7 +89,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDictionary *object = self.objects[indexPath.row];
+        NSDictionary *object = self.objects[[self getGlobalRowFromIndexPath:indexPath]];
         KBDetailViewController *controller = (KBDetailViewController *)[[segue destinationViewController] topViewController];
         [controller setDetailItem:object];
         controller.navigationItem.leftBarButtonItem = self.splitViewController.displayModeButtonItem;
@@ -109,11 +109,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     KBTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    int offset = 0;
-    for(int i=0 ; i<indexPath.section ; i++){
-        offset += [self.model getNumberElementInYear:self.yearList[i]];
-    }
-    NSDictionary *object = self.objects[indexPath.row + offset];
+    NSDictionary *object = self.objects[[self getGlobalRowFromIndexPath:indexPath]];
     return [self setCellContents:cell :object];
 }
 
@@ -136,6 +132,14 @@
         return nil;
     }
     return self.yearList[section];
+}
+
+- (long)getGlobalRowFromIndexPath:(NSIndexPath *)indexPath {
+    int offset = 0;
+    for(int i=0 ; i<indexPath.section ; i++){
+        offset += [self.model getNumberElementInYear:self.yearList[i]];
+    }
+    return indexPath.row + offset;
 }
 
 
