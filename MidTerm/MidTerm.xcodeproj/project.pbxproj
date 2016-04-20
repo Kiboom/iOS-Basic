@@ -41,6 +41,7 @@
 		E935251F1CBB47C1005AC613 /* 21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E93525081CBB47C1005AC613 /* 21.jpg */; };
 		E93525201CBB47C1005AC613 /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E93525091CBB47C1005AC613 /* 22.jpg */; };
 		E93525211CBB47C1005AC613 /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = E935250A1CBB47C1005AC613 /* Thumbs.db */; };
+		E95EB77C1CC48C7F00141FBF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E95EB77B1CC48C7F00141FBF /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,8 @@
 		E93525081CBB47C1005AC613 /* 21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 21.jpg; sourceTree = "<group>"; };
 		E93525091CBB47C1005AC613 /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
 		E935250A1CBB47C1005AC613 /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		E95EB77A1CC48C7F00141FBF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E95EB77B1CC48C7F00141FBF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,8 @@
 			children = (
 				E93524B81CBB3489005AC613 /* AppDelegate.h */,
 				E93524B91CBB3489005AC613 /* AppDelegate.m */,
+				E95EB77A1CC48C7F00141FBF /* Reachability.h */,
+				E95EB77B1CC48C7F00141FBF /* Reachability.m */,
 				E93524EB1CBB34F5005AC613 /* KBDataModel.h */,
 				E93524EC1CBB34F5005AC613 /* KBDataModel.m */,
 				E93524EE1CBB4591005AC613 /* KBTableViewCell.h */,
@@ -389,6 +394,7 @@
 				E93524F01CBB4591005AC613 /* KBTableViewCell.m in Sources */,
 				E93524BA1CBB3489005AC613 /* AppDelegate.m in Sources */,
 				E93524ED1CBB34F5005AC613 /* KBDataModel.m in Sources */,
+				E95EB77C1CC48C7F00141FBF /* Reachability.m in Sources */,
 				E93524BD1CBB3489005AC613 /* KBAlbumViewController.m in Sources */,
 				E93524B71CBB3489005AC613 /* main.m in Sources */,
 				E93524C01CBB3489005AC613 /* KBDetailViewController.m in Sources */,
@@ -615,6 +621,7 @@
 				E93524E41CBB3489005AC613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E93524E51CBB3489005AC613 /* Build configuration list for PBXNativeTarget "MidTermTests" */ = {
 			isa = XCConfigurationList;
@@ -623,6 +630,7 @@
 				E93524E71CBB3489005AC613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E93524E81CBB3489005AC613 /* Build configuration list for PBXNativeTarget "MidTermUITests" */ = {
 			isa = XCConfigurationList;
@@ -631,6 +639,7 @@
 				E93524EA1CBB3489005AC613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

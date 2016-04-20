@@ -30,7 +30,15 @@
     NSDictionary *data = (NSDictionary *)_detailItem;
     self.titleLabel.text = [data objectForKey:@"title"];
     self.dateLabel.text = [data objectForKey:@"date"];
-    self.imageView.image = [UIImage imageNamed:[data objectForKey:@"image"]];}
+    self.imageView.image = [self getImageFromServer:[data objectForKey:@"image"]];
+}
+
+- (UIImage *)getImageFromServer:(NSString *)imageName {
+    NSString *urlString = [[NSString alloc] initWithFormat:@"http://125.209.194.123/demo/%@",imageName];
+    NSURL *url = [[NSURL alloc] initWithString:urlString];
+    NSData *data = [[NSData alloc] initWithContentsOfURL:url];
+    return [[UIImage alloc] initWithData:data];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

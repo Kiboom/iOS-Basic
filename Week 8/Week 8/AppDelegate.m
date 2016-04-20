@@ -1,13 +1,13 @@
 //
 //  AppDelegate.m
-//  MidTerm
+//  Week 8
 //
-//  Created by 김기범 on 2016. 4. 11..
+//  Created by 김기범 on 2016. 4. 20..
 //  Copyright © 2016년 김기범. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "KBDetailViewController.h"
+#import "DetailViewController.h"
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -22,7 +22,6 @@
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
     splitViewController.delegate = self;
-    self.notiCenter = [NSNotificationCenter defaultCenter];
     return YES;
 }
 
@@ -41,6 +40,7 @@
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
+    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
@@ -50,7 +50,7 @@
 #pragma mark - Split view
 
 - (BOOL)splitViewController:(UISplitViewController *)splitViewController collapseSecondaryViewController:(UIViewController *)secondaryViewController ontoPrimaryViewController:(UIViewController *)primaryViewController {
-    if ([secondaryViewController isKindOfClass:[UINavigationController class]] && [[(UINavigationController *)secondaryViewController topViewController] isKindOfClass:[KBDetailViewController class]] && ([(KBDetailViewController *)[(UINavigationController *)secondaryViewController topViewController] detailItem] == nil)) {
+    if ([secondaryViewController isKindOfClass:[UINavigationController class]] && [[(UINavigationController *)secondaryViewController topViewController] isKindOfClass:[DetailViewController class]] && ([(DetailViewController *)[(UINavigationController *)secondaryViewController topViewController] detailItem] == nil)) {
         // Return YES to indicate that we have handled the collapse by doing nothing; the secondary controller will be discarded.
         return YES;
     } else {
