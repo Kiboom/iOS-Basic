@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWP-tQ-lI9" userLabel="firstButton">
+                                <rect key="frame" x="46" y="50" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="x3P-pb-jp5"/>
+                                    <constraint firstAttribute="height" constant="100" id="ySh-rF-VCQ"/>
+                                </constraints>
+                                <state key="normal" title="first"/>
+                                <connections>
+                                    <action selector="touched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rFQ-kO-BgB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igL-qW-Xa3">
+                                <rect key="frame" x="285" y="432" width="31" height="30"/>
+                                <state key="normal" title="read"/>
+                                <connections>
+                                    <action selector="read:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KkZ-t5-4bZ"/>
+                                </connections>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="KVj-Uy-pyZ">
+                                <rect key="frame" x="150" y="384" width="300" height="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="pOc-wN-XCE"/>
+                                </constraints>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="igL-qW-Xa3" secondAttribute="bottom" constant="138" id="I6q-Qo-sGQ"/>
+                            <constraint firstItem="igL-qW-Xa3" firstAttribute="top" secondItem="KVj-Uy-pyZ" secondAttribute="bottom" constant="46" id="Uuc-kU-qaP"/>
+                            <constraint firstItem="igL-qW-Xa3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Y72-6r-JIZ"/>
+                            <constraint firstItem="KVj-Uy-pyZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gzb-Vd-eYg"/>
+                            <constraint firstItem="aWP-tQ-lI9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="kBr-mw-3Il"/>
+                            <constraint firstItem="aWP-tQ-lI9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="26" id="pRF-Kz-hhL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonHeightConstraint" destination="ySh-rF-VCQ" id="dzH-Yd-d3z"/>
+                        <outlet property="buttonLeftConstraint" destination="pRF-Kz-hhL" id="LZc-0C-txP"/>
+                        <outlet property="buttonTopConstraint" destination="kBr-mw-3Il" id="eMI-GP-4nR"/>
+                        <outlet property="buttonWidthConstraint" destination="x3P-pb-jp5" id="ldb-GO-Q2j"/>
+                        <outlet property="firstButton" destination="aWP-tQ-lI9" id="T9s-Gu-3by"/>
+                        <outlet property="progressBar" destination="KVj-Uy-pyZ" id="bNb-VW-U2m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="243" y="339"/>
+        </scene>
+    </scenes>
+</document>
